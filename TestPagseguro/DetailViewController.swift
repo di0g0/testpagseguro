@@ -1,45 +1,29 @@
-//
-//  DetailViewController.swift
-//  TestPagseguro
-//
-//  Created by Diogo Costa on 01/08/17.
-//  Copyright © 2017 Diogo Costa. All rights reserved.
-//
-
 import UIKit
+import SDWebImage
 
 class DetailViewController: UIViewController {
-
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-
+    @IBOutlet weak var beerDescription: UILabel!
+    @IBOutlet weak var beerImage: UIImageView!
+    @IBOutlet weak var beerTagline: UILabel!
+    @IBOutlet weak var abvLabel: UILabel!
+    @IBOutlet weak var ibuLabel: UILabel!
+    
+    var beer: BeerViewModel?
+    
     func configureView() {
-        // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
-            }
+        if let selectedBeer = beer {
+            self.title = selectedBeer.nameText
+            self.beerDescription.text = selectedBeer.descriptionText
+            self.beerTagline.text = selectedBeer.taglineText
+            self.beerImage.sd_setImage(with: selectedBeer.pictureUrl)
+            self.abvLabel.text = selectedBeer.abvText
+            self.ibuLabel.text = selectedBeer.ibuText
         }
     }
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        super.viewDidLoad()        
         configureView()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    var detailItem: NSDate? {
-        didSet {
-            // Update the view.
-            configureView()
-        }
-    }
-
-
 }
 

@@ -1,0 +1,6 @@
+framework module Pods_TestPagseguro {
+  umbrella header "Pods-TestPagseguro-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67ED8BF083C6CE7B999FB4FD /* Pods_TestPagseguroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7661CD1A01BDC11105FD70 /* Pods_TestPagseguroTests.framework */; };
+		BB6E625AF04500BF8835FCC2 /* Pods_TestPagseguro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E458EFB95AAAD0D141A629 /* Pods_TestPagseguro.framework */; };
+		DD6CE7301F33D15A00782F29 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B4F1F33A29300D67667 /* AppConstants.swift */; };
+		DD6CE7311F33D15A00782F29 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B4F1F33A29300D67667 /* AppConstants.swift */; };
+		DD6CE7331F33DD0900782F29 /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6CE7321F33DD0900782F29 /* BeerViewModel.swift */; };
+		DD6CE7341F33DD0900782F29 /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6CE7321F33DD0900782F29 /* BeerViewModel.swift */; };
+		DD6CE7351F33DD0900782F29 /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6CE7321F33DD0900782F29 /* BeerViewModel.swift */; };
 		DDE28B181F30DC2300D67667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B171F30DC2300D67667 /* AppDelegate.swift */; };
-		DDE28B1A1F30DC2300D67667 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B191F30DC2300D67667 /* MasterViewController.swift */; };
+		DDE28B1A1F30DC2300D67667 /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B191F30DC2300D67667 /* BeerListViewController.swift */; };
 		DDE28B1C1F30DC2300D67667 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B1B1F30DC2300D67667 /* DetailViewController.swift */; };
 		DDE28B1F1F30DC2300D67667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE28B1D1F30DC2300D67667 /* Main.storyboard */; };
 		DDE28B211F30DC2300D67667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE28B201F30DC2300D67667 /* Assets.xcassets */; };
 		DDE28B241F30DC2300D67667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE28B221F30DC2300D67667 /* LaunchScreen.storyboard */; };
 		DDE28B2F1F30DC2300D67667 /* TestPagseguroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B2E1F30DC2300D67667 /* TestPagseguroTests.swift */; };
 		DDE28B3A1F30DC2300D67667 /* TestPagseguroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B391F30DC2300D67667 /* TestPagseguroUITests.swift */; };
+		DDE28B481F31258300D67667 /* BeerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B471F31258300D67667 /* BeerListCell.swift */; };
+		DDE28B491F31258300D67667 /* BeerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B471F31258300D67667 /* BeerListCell.swift */; };
+		DDE28B4A1F31258300D67667 /* BeerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B471F31258300D67667 /* BeerListCell.swift */; };
+		DDE28B4C1F336CB500D67667 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B4B1F336CB500D67667 /* Beer.swift */; };
+		DDE28B4D1F336CB500D67667 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B4B1F336CB500D67667 /* Beer.swift */; };
+		DDE28B4E1F336CB500D67667 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B4B1F336CB500D67667 /* Beer.swift */; };
+		DDE28B501F33A29300D67667 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B4F1F33A29300D67667 /* AppConstants.swift */; };
+		DDE28B521F33AD5000D67667 /* BeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B511F33AD5000D67667 /* BeerManager.swift */; };
+		DDE28B531F33AD5000D67667 /* BeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B511F33AD5000D67667 /* BeerManager.swift */; };
+		DDE28B541F33AD5000D67667 /* BeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE28B511F33AD5000D67667 /* BeerManager.swift */; };
+		EF582B84CCE4BE8109B0A308 /* Pods_TestPagseguroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019B31C921EFC52E978BBE82 /* Pods_TestPagseguroUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019B31C921EFC52E978BBE82 /* Pods_TestPagseguroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPagseguroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E458EFB95AAAD0D141A629 /* Pods_TestPagseguro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPagseguro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35448DDE175BC689C8E56406 /* Pods-TestPagseguro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPagseguro.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestPagseguro/Pods-TestPagseguro.release.xcconfig"; sourceTree = "<group>"; };
+		4FBBF9AB8B633114B20390CC /* Pods-TestPagseguro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPagseguro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestPagseguro/Pods-TestPagseguro.debug.xcconfig"; sourceTree = "<group>"; };
+		6E7661CD1A01BDC11105FD70 /* Pods_TestPagseguroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPagseguroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855816C797861634A8087906 /* Pods-TestPagseguroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPagseguroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestPagseguroTests/Pods-TestPagseguroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1B4244D9BBA575F814E458 /* Pods-TestPagseguroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPagseguroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestPagseguroUITests/Pods-TestPagseguroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B70CA8A4AEA85DAAC5E3C331 /* Pods-TestPagseguroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPagseguroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestPagseguroTests/Pods-TestPagseguroTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDF6992EF243FC6365DDB111 /* Pods-TestPagseguroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPagseguroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestPagseguroUITests/Pods-TestPagseguroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD6CE7321F33DD0900782F29 /* BeerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
 		DDE28B141F30DC2300D67667 /* TestPagseguro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPagseguro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE28B171F30DC2300D67667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDE28B191F30DC2300D67667 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		DDE28B191F30DC2300D67667 /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
 		DDE28B1B1F30DC2300D67667 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DDE28B1E1F30DC2300D67667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDE28B201F30DC2300D67667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +77,10 @@
 		DDE28B351F30DC2300D67667 /* TestPagseguroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPagseguroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE28B391F30DC2300D67667 /* TestPagseguroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPagseguroUITests.swift; sourceTree = "<group>"; };
 		DDE28B3B1F30DC2300D67667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE28B471F31258300D67667 /* BeerListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerListCell.swift; sourceTree = "<group>"; };
+		DDE28B4B1F336CB500D67667 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		DDE28B4F1F33A29300D67667 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		DDE28B511F33AD5000D67667 /* BeerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6E625AF04500BF8835FCC2 /* Pods_TestPagseguro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67ED8BF083C6CE7B999FB4FD /* Pods_TestPagseguroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF582B84CCE4BE8109B0A308 /* Pods_TestPagseguroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CF8ED292754BFC523B76642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E458EFB95AAAD0D141A629 /* Pods_TestPagseguro.framework */,
+				6E7661CD1A01BDC11105FD70 /* Pods_TestPagseguroTests.framework */,
+				019B31C921EFC52E978BBE82 /* Pods_TestPagseguroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6CE7361F341BB300782F29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDE28B4B1F336CB500D67667 /* Beer.swift */,
+				DD6CE7321F33DD0900782F29 /* BeerViewModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DD6CE7371F341BCB00782F29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDE28B191F30DC2300D67667 /* BeerListViewController.swift */,
+				DDE28B1B1F30DC2300D67667 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DD6CE7381F341CCA00782F29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDE28B1D1F30DC2300D67667 /* Main.storyboard */,
+				DDE28B201F30DC2300D67667 /* Assets.xcassets */,
+				DDE28B221F30DC2300D67667 /* LaunchScreen.storyboard */,
+				DDE28B251F30DC2300D67667 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DD6CE7391F341CD500782F29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDE28B471F31258300D67667 /* BeerListCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DD6CE73A1F341CDF00782F29 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DDE28B4F1F33A29300D67667 /* AppConstants.swift */,
+				DDE28B511F33AD5000D67667 /* BeerManager.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		DDE28B0B1F30DC2300D67667 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +174,8 @@
 				DDE28B2D1F30DC2300D67667 /* TestPagseguroTests */,
 				DDE28B381F30DC2300D67667 /* TestPagseguroUITests */,
 				DDE28B151F30DC2300D67667 /* Products */,
+				E43AE8D5D9E1FA55062EAB29 /* Pods */,
+				3CF8ED292754BFC523B76642 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				DDE28B171F30DC2300D67667 /* AppDelegate.swift */,
-				DDE28B191F30DC2300D67667 /* MasterViewController.swift */,
-				DDE28B1B1F30DC2300D67667 /* DetailViewController.swift */,
-				DDE28B1D1F30DC2300D67667 /* Main.storyboard */,
-				DDE28B201F30DC2300D67667 /* Assets.xcassets */,
-				DDE28B221F30DC2300D67667 /* LaunchScreen.storyboard */,
-				DDE28B251F30DC2300D67667 /* Info.plist */,
+				DD6CE73A1F341CDF00782F29 /* Util */,
+				DD6CE7371F341BCB00782F29 /* ViewControllers */,
+				DD6CE7361F341BB300782F29 /* Models */,
+				DD6CE7391F341CD500782F29 /* Views */,
+				DD6CE7381F341CCA00782F29 /* Resources */,
 			);
 			path = TestPagseguro;
 			sourceTree = "<group>";
@@ -128,6 +220,19 @@
 			path = TestPagseguroUITests;
 			sourceTree = "<group>";
 		};
+		E43AE8D5D9E1FA55062EAB29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FBBF9AB8B633114B20390CC /* Pods-TestPagseguro.debug.xcconfig */,
+				35448DDE175BC689C8E56406 /* Pods-TestPagseguro.release.xcconfig */,
+				855816C797861634A8087906 /* Pods-TestPagseguroTests.debug.xcconfig */,
+				B70CA8A4AEA85DAAC5E3C331 /* Pods-TestPagseguroTests.release.xcconfig */,
+				9B1B4244D9BBA575F814E458 /* Pods-TestPagseguroUITests.debug.xcconfig */,
+				CDF6992EF243FC6365DDB111 /* Pods-TestPagseguroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE28B3E1F30DC2300D67667 /* Build configuration list for PBXNativeTarget "TestPagseguro" */;
 			buildPhases = (
+				32C0325B78687F9A43AAE70B /* [CP] Check Pods Manifest.lock */,
 				DDE28B101F30DC2300D67667 /* Sources */,
 				DDE28B111F30DC2300D67667 /* Frameworks */,
 				DDE28B121F30DC2300D67667 /* Resources */,
+				8D59B009F2F37D09D845CFBB /* [CP] Embed Pods Frameworks */,
+				9AF764690AC8D3FD2DE2808C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE28B411F30DC2300D67667 /* Build configuration list for PBXNativeTarget "TestPagseguroTests" */;
 			buildPhases = (
+				ED5F3F84F64DE6BD309B0980 /* [CP] Check Pods Manifest.lock */,
 				DDE28B261F30DC2300D67667 /* Sources */,
 				DDE28B271F30DC2300D67667 /* Frameworks */,
 				DDE28B281F30DC2300D67667 /* Resources */,
+				99D8910A12732F81D7C68956 /* [CP] Embed Pods Frameworks */,
+				2D3AB793CCCE128945497625 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE28B441F30DC2300D67667 /* Build configuration list for PBXNativeTarget "TestPagseguroUITests" */;
 			buildPhases = (
+				F3DEF0595D04DDA2D8427EFD /* [CP] Check Pods Manifest.lock */,
 				DDE28B311F30DC2300D67667 /* Sources */,
 				DDE28B321F30DC2300D67667 /* Frameworks */,
 				DDE28B331F30DC2300D67667 /* Resources */,
+				061586259683F825D26405E4 /* [CP] Embed Pods Frameworks */,
+				47CB35CCEF4300BAE70CC4CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +371,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		061586259683F825D26405E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPagseguroUITests/Pods-TestPagseguroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D3AB793CCCE128945497625 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPagseguroTests/Pods-TestPagseguroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32C0325B78687F9A43AAE70B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47CB35CCEF4300BAE70CC4CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPagseguroUITests/Pods-TestPagseguroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D59B009F2F37D09D845CFBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPagseguro/Pods-TestPagseguro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D8910A12732F81D7C68956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPagseguroTests/Pods-TestPagseguroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF764690AC8D3FD2DE2808C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPagseguro/Pods-TestPagseguro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5F3F84F64DE6BD309B0980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DEF0595D04DDA2D8427EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDE28B101F30DC2300D67667 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6CE7331F33DD0900782F29 /* BeerViewModel.swift in Sources */,
 				DDE28B1C1F30DC2300D67667 /* DetailViewController.swift in Sources */,
-				DDE28B1A1F30DC2300D67667 /* MasterViewController.swift in Sources */,
+				DDE28B501F33A29300D67667 /* AppConstants.swift in Sources */,
+				DDE28B1A1F30DC2300D67667 /* BeerListViewController.swift in Sources */,
+				DDE28B4C1F336CB500D67667 /* Beer.swift in Sources */,
 				DDE28B181F30DC2300D67667 /* AppDelegate.swift in Sources */,
+				DDE28B481F31258300D67667 /* BeerListCell.swift in Sources */,
+				DDE28B521F33AD5000D67667 /* BeerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +529,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6CE7341F33DD0900782F29 /* BeerViewModel.swift in Sources */,
 				DDE28B2F1F30DC2300D67667 /* TestPagseguroTests.swift in Sources */,
+				DDE28B531F33AD5000D67667 /* BeerManager.swift in Sources */,
+				DDE28B4D1F336CB500D67667 /* Beer.swift in Sources */,
+				DDE28B491F31258300D67667 /* BeerListCell.swift in Sources */,
+				DD6CE7301F33D15A00782F29 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +542,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6CE7351F33DD0900782F29 /* BeerViewModel.swift in Sources */,
 				DDE28B3A1F30DC2300D67667 /* TestPagseguroUITests.swift in Sources */,
+				DDE28B541F33AD5000D67667 /* BeerManager.swift in Sources */,
+				DDE28B4E1F336CB500D67667 /* Beer.swift in Sources */,
+				DDE28B4A1F31258300D67667 /* BeerListCell.swift in Sources */,
+				DD6CE7311F33D15A00782F29 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +683,7 @@
 		};
 		DDE28B3F1F30DC2300D67667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBBF9AB8B633114B20390CC /* Pods-TestPagseguro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestPagseguro/Info.plist;
@@ -428,6 +696,7 @@
 		};
 		DDE28B401F30DC2300D67667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35448DDE175BC689C8E56406 /* Pods-TestPagseguro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestPagseguro/Info.plist;
@@ -440,6 +709,7 @@
 		};
 		DDE28B421F30DC2300D67667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855816C797861634A8087906 /* Pods-TestPagseguroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +724,7 @@
 		};
 		DDE28B431F30DC2300D67667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70CA8A4AEA85DAAC5E3C331 /* Pods-TestPagseguroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +739,7 @@
 		};
 		DDE28B451F30DC2300D67667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1B4244D9BBA575F814E458 /* Pods-TestPagseguroUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TestPagseguroUITests/Info.plist;
@@ -481,6 +753,7 @@
 		};
 		DDE28B461F30DC2300D67667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF6992EF243FC6365DDB111 /* Pods-TestPagseguroUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TestPagseguroUITests/Info.plist;
@@ -511,6 +784,7 @@
 				DDE28B401F30DC2300D67667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE28B411F30DC2300D67667 /* Build configuration list for PBXNativeTarget "TestPagseguroTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +793,7 @@
 				DDE28B431F30DC2300D67667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE28B441F30DC2300D67667 /* Build configuration list for PBXNativeTarget "TestPagseguroUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +802,7 @@
 				DDE28B461F30DC2300D67667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
